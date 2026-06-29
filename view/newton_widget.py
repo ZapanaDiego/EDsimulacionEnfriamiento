@@ -1,3 +1,4 @@
+import logging
 import numpy as np
 from PyQt6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QPushButton
 from core.newton_simulator import NewtonSimulator
@@ -56,6 +57,8 @@ class NewtonWidget(QWidget):
         self.room_canvas.set_temperature(self.config.T_initial_cpu)
 
     def execute_simulation(self):
+        logging.info(f"Usuario solicitó ejecución (Newton). Parámetros -> T_CPU={self.config.T_initial_cpu}, T_AIR={self.config.T_ambient}, K={self.config.cooling_constant_k}")
+        
         # 1. Instanciar simulador
         simulator = NewtonSimulator(self.config)
         

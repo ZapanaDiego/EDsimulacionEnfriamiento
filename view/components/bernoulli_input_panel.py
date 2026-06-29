@@ -38,9 +38,9 @@ class BernoulliInputPanel(QWidget):
         self.lbl_v_air = QLabel(f"Velocidad Viento: {self.config.V_air} m/s")
         self.slider_v_air = self.create_slider(0, 20, int(self.config.V_air), self.on_v_air_changed)
         
-        # 5. Escala Turbulencia n (1.0 - 3.0 -> mapeado a 10 - 30)
+        # 5. Escala Turbulencia n (1.1 - 1.7 -> mapeado a 11 - 17)
         self.lbl_n = QLabel(f"Escala Turbulencia (n): {self.config.bernoulli_n}")
-        self.slider_n = self.create_slider(10, 30, int(self.config.bernoulli_n * 10), self.on_n_changed)
+        self.slider_n = self.create_slider(11, 17, int(self.config.bernoulli_n * 10), self.on_n_changed)
         
         # 6. Humedad H (0 - 100)
         self.lbl_h = QLabel(f"Humedad (H): {self.config.humidity_H}%")
@@ -106,7 +106,6 @@ class BernoulliInputPanel(QWidget):
     def on_v_air_changed(self, value):
         self.lbl_v_air.setText(f"Velocidad Viento: {value} m/s")
         self.config.V_air = float(value)
-        self.config.cooling_constant_k2 = 0.001 * float(value)
         # Emitir señal para la animación
         self.wind_speed_changed.emit(float(value))
 

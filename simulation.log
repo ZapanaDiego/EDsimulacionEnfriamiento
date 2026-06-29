@@ -1,0 +1,202 @@
+2026-06-29 12:53:23,042 [INFO] (main.py): Iniciando Simulador Interactivo de Enfriamiento Térmico de CPU (GUI)...
+2026-06-29 12:53:24,392 [DEBUG] (room_canvas.py): Sistema de partículas inicializado. Cantidad: 30
+2026-06-29 12:53:44,813 [INFO] (newton_widget.py): Usuario solicitó ejecución (Newton). Parámetros -> T_CPU=107.0, T_AIR=30.0, K=0.05
+2026-06-29 12:53:44,813 [INFO] (newton_simulator.py): Iniciando integración numérica (Newton).
+2026-06-29 12:53:44,814 [INFO] (newton_simulator.py): --- Parámetros Físicos Newton ---
+2026-06-29 12:53:44,815 [INFO] (newton_simulator.py): T_cpu inicial: 107.0°C
+2026-06-29 12:53:44,815 [INFO] (newton_simulator.py): T_ambient: 30.0°C
+2026-06-29 12:53:44,815 [INFO] (newton_simulator.py): Constante k1: 0.05
+2026-06-29 12:53:44,816 [INFO] (newton_simulator.py): Tiempo total: 300.0s, dt ~ 0.300s
+2026-06-29 12:53:44,826 [INFO] (newton_simulator.py): --- Auditoría SciPy (Newton) ---
+2026-06-29 12:53:44,827 [INFO] (newton_simulator.py): Success: True
+2026-06-29 12:53:44,827 [INFO] (newton_simulator.py): Mensaje: The solver successfully reached the end of the integration interval.
+2026-06-29 12:53:44,828 [INFO] (newton_simulator.py): Evaluaciones de función (nfev): 68
+2026-06-29 12:53:44,828 [INFO] (newton_simulator.py): --- Estadísticos de Salida (Newton) ---
+2026-06-29 12:53:44,829 [INFO] (newton_simulator.py): Shape t: (1000,), Shape T: (1000,)
+2026-06-29 12:53:44,830 [INFO] (newton_simulator.py): Temp. Máxima: 107.00°C
+2026-06-29 12:53:44,830 [INFO] (newton_simulator.py): Temp. Mínima: 30.00°C
+2026-06-29 12:53:44,831 [INFO] (newton_simulator.py): Primeros 5 puntos (t, T): [(np.float64(0.0), np.float64(107.0)), (np.float64(0.3), np.float64(105.85)), (np.float64(0.6), np.float64(104.72)), (np.float64(0.9), np.float64(103.61)), (np.float64(1.2), np.float64(102.51))]
+2026-06-29 12:53:44,832 [INFO] (newton_simulator.py): Últimos 5 puntos (t, T): [(np.float64(298.8), np.float64(30.0)), (np.float64(299.1), np.float64(30.0)), (np.float64(299.4), np.float64(30.0)), (np.float64(299.7), np.float64(30.0)), (np.float64(300.0), np.float64(30.0))]
+2026-06-29 12:53:44,832 [INFO] (newton_simulator.py): Integración numérica (Newton) completada con éxito. Puntos: 1000
+2026-06-29 12:53:50,584 [INFO] (newton_widget.py): Usuario solicitó ejecución (Newton). Parámetros -> T_CPU=107.0, T_AIR=50.0, K=0.05
+2026-06-29 12:53:50,584 [INFO] (newton_simulator.py): Iniciando integración numérica (Newton).
+2026-06-29 12:53:50,585 [INFO] (newton_simulator.py): --- Parámetros Físicos Newton ---
+2026-06-29 12:53:50,585 [INFO] (newton_simulator.py): T_cpu inicial: 107.0°C
+2026-06-29 12:53:50,585 [INFO] (newton_simulator.py): T_ambient: 50.0°C
+2026-06-29 12:53:50,585 [INFO] (newton_simulator.py): Constante k1: 0.05
+2026-06-29 12:53:50,585 [INFO] (newton_simulator.py): Tiempo total: 300.0s, dt ~ 0.300s
+2026-06-29 12:53:50,590 [INFO] (newton_simulator.py): --- Auditoría SciPy (Newton) ---
+2026-06-29 12:53:50,590 [INFO] (newton_simulator.py): Success: True
+2026-06-29 12:53:50,590 [INFO] (newton_simulator.py): Mensaje: The solver successfully reached the end of the integration interval.
+2026-06-29 12:53:50,590 [INFO] (newton_simulator.py): Evaluaciones de función (nfev): 68
+2026-06-29 12:53:50,591 [INFO] (newton_simulator.py): --- Estadísticos de Salida (Newton) ---
+2026-06-29 12:53:50,591 [INFO] (newton_simulator.py): Shape t: (1000,), Shape T: (1000,)
+2026-06-29 12:53:50,591 [INFO] (newton_simulator.py): Temp. Máxima: 107.00°C
+2026-06-29 12:53:50,591 [INFO] (newton_simulator.py): Temp. Mínima: 49.99°C
+2026-06-29 12:53:50,591 [INFO] (newton_simulator.py): Primeros 5 puntos (t, T): [(np.float64(0.0), np.float64(107.0)), (np.float64(0.3), np.float64(106.15)), (np.float64(0.6), np.float64(105.31)), (np.float64(0.9), np.float64(104.49)), (np.float64(1.2), np.float64(103.68))]
+2026-06-29 12:53:50,591 [INFO] (newton_simulator.py): Últimos 5 puntos (t, T): [(np.float64(298.8), np.float64(50.01)), (np.float64(299.1), np.float64(50.01)), (np.float64(299.4), np.float64(50.01)), (np.float64(299.7), np.float64(50.01)), (np.float64(300.0), np.float64(50.01))]
+2026-06-29 12:53:50,592 [INFO] (newton_simulator.py): Integración numérica (Newton) completada con éxito. Puntos: 1000
+2026-06-29 12:54:02,018 [INFO] (newton_widget.py): Usuario solicitó ejecución (Newton). Parámetros -> T_CPU=107.0, T_AIR=50.0, K=0.01
+2026-06-29 12:54:02,018 [INFO] (newton_simulator.py): Iniciando integración numérica (Newton).
+2026-06-29 12:54:02,019 [INFO] (newton_simulator.py): --- Parámetros Físicos Newton ---
+2026-06-29 12:54:02,019 [INFO] (newton_simulator.py): T_cpu inicial: 107.0°C
+2026-06-29 12:54:02,020 [INFO] (newton_simulator.py): T_ambient: 50.0°C
+2026-06-29 12:54:02,020 [INFO] (newton_simulator.py): Constante k1: 0.01
+2026-06-29 12:54:02,020 [INFO] (newton_simulator.py): Tiempo total: 300.0s, dt ~ 0.300s
+2026-06-29 12:54:02,026 [INFO] (newton_simulator.py): --- Auditoría SciPy (Newton) ---
+2026-06-29 12:54:02,026 [INFO] (newton_simulator.py): Success: True
+2026-06-29 12:54:02,026 [INFO] (newton_simulator.py): Mensaje: The solver successfully reached the end of the integration interval.
+2026-06-29 12:54:02,027 [INFO] (newton_simulator.py): Evaluaciones de función (nfev): 38
+2026-06-29 12:54:02,027 [INFO] (newton_simulator.py): --- Estadísticos de Salida (Newton) ---
+2026-06-29 12:54:02,027 [INFO] (newton_simulator.py): Shape t: (1000,), Shape T: (1000,)
+2026-06-29 12:54:02,028 [INFO] (newton_simulator.py): Temp. Máxima: 107.00°C
+2026-06-29 12:54:02,028 [INFO] (newton_simulator.py): Temp. Mínima: 52.85°C
+2026-06-29 12:54:02,029 [INFO] (newton_simulator.py): Primeros 5 puntos (t, T): [(np.float64(0.0), np.float64(107.0)), (np.float64(0.3), np.float64(106.83)), (np.float64(0.6), np.float64(106.66)), (np.float64(0.9), np.float64(106.49)), (np.float64(1.2), np.float64(106.32))]
+2026-06-29 12:54:02,029 [INFO] (newton_simulator.py): Últimos 5 puntos (t, T): [(np.float64(298.8), np.float64(52.88)), (np.float64(299.1), np.float64(52.87)), (np.float64(299.4), np.float64(52.86)), (np.float64(299.7), np.float64(52.86)), (np.float64(300.0), np.float64(52.85))]
+2026-06-29 12:54:02,030 [INFO] (newton_simulator.py): Integración numérica (Newton) completada con éxito. Puntos: 1000
+2026-06-29 12:54:12,615 [INFO] (newton_widget.py): Usuario solicitó ejecución (Newton). Parámetros -> T_CPU=107.0, T_AIR=50.0, K=0.2
+2026-06-29 12:54:12,616 [INFO] (newton_simulator.py): Iniciando integración numérica (Newton).
+2026-06-29 12:54:12,616 [INFO] (newton_simulator.py): --- Parámetros Físicos Newton ---
+2026-06-29 12:54:12,616 [INFO] (newton_simulator.py): T_cpu inicial: 107.0°C
+2026-06-29 12:54:12,617 [INFO] (newton_simulator.py): T_ambient: 50.0°C
+2026-06-29 12:54:12,617 [INFO] (newton_simulator.py): Constante k1: 0.2
+2026-06-29 12:54:12,617 [INFO] (newton_simulator.py): Tiempo total: 300.0s, dt ~ 0.300s
+2026-06-29 12:54:12,634 [INFO] (newton_simulator.py): --- Auditoría SciPy (Newton) ---
+2026-06-29 12:54:12,634 [INFO] (newton_simulator.py): Success: True
+2026-06-29 12:54:12,634 [INFO] (newton_simulator.py): Mensaje: The solver successfully reached the end of the integration interval.
+2026-06-29 12:54:12,634 [INFO] (newton_simulator.py): Evaluaciones de función (nfev): 152
+2026-06-29 12:54:12,634 [INFO] (newton_simulator.py): --- Estadísticos de Salida (Newton) ---
+2026-06-29 12:54:12,635 [INFO] (newton_simulator.py): Shape t: (1000,), Shape T: (1000,)
+2026-06-29 12:54:12,635 [INFO] (newton_simulator.py): Temp. Máxima: 107.00°C
+2026-06-29 12:54:12,635 [INFO] (newton_simulator.py): Temp. Mínima: 49.97°C
+2026-06-29 12:54:12,635 [INFO] (newton_simulator.py): Primeros 5 puntos (t, T): [(np.float64(0.0), np.float64(107.0)), (np.float64(0.3), np.float64(103.68)), (np.float64(0.6), np.float64(100.55)), (np.float64(0.9), np.float64(97.6)), (np.float64(1.2), np.float64(94.83))]
+2026-06-29 12:54:12,636 [INFO] (newton_simulator.py): Últimos 5 puntos (t, T): [(np.float64(298.8), np.float64(50.01)), (np.float64(299.1), np.float64(50.01)), (np.float64(299.4), np.float64(50.01)), (np.float64(299.7), np.float64(50.01)), (np.float64(300.0), np.float64(50.01))]
+2026-06-29 12:54:12,636 [INFO] (newton_simulator.py): Integración numérica (Newton) completada con éxito. Puntos: 1000
+2026-06-29 12:54:16,267 [DEBUG] (room_canvas.py): Sistema de partículas inicializado. Cantidad: 30
+2026-06-29 12:54:55,574 [INFO] (bernoulli_widget.py): Usuario solicitó ejecución (Bernoulli). Parámetros -> T_CPU=150.0, T_AIR=50.0, K=0.2, Viento=0.0, n=1.1, Humedad=0.0, K_nb=1.0
+2026-06-29 12:54:55,574 [INFO] (bernoulli_simulator.py): Iniciando integración numérica (Bernoulli).
+2026-06-29 12:54:55,575 [INFO] (bernoulli_simulator.py): --- Parámetros Físicos Bernoulli ---
+2026-06-29 12:54:55,575 [INFO] (bernoulli_simulator.py): T_cpu inicial: 150.0°C
+2026-06-29 12:54:55,575 [INFO] (bernoulli_simulator.py): T_ambient: 50.0°C
+2026-06-29 12:54:55,575 [INFO] (bernoulli_simulator.py): Constante k1: 0.2
+2026-06-29 12:54:55,575 [INFO] (bernoulli_simulator.py): Constante k2 dinámica: 0.000000
+2026-06-29 12:54:55,575 [INFO] (bernoulli_simulator.py): Exponente n: 1.1
+2026-06-29 12:54:55,575 [INFO] (bernoulli_simulator.py): Velocidad Viento: 0.0 m/s, Humedad: 0.0%, Sesgo: 1.0
+2026-06-29 12:54:55,576 [INFO] (bernoulli_simulator.py): Tiempo total: 300.0s, dt ~ 0.300s
+2026-06-29 12:54:55,581 [INFO] (bernoulli_simulator.py): --- Auditoría SciPy (Bernoulli) ---
+2026-06-29 12:54:55,581 [INFO] (bernoulli_simulator.py): Success: True
+2026-06-29 12:54:55,582 [INFO] (bernoulli_simulator.py): Mensaje: The solver successfully reached the end of the integration interval.
+2026-06-29 12:54:55,582 [INFO] (bernoulli_simulator.py): Evaluaciones de función (nfev): 74
+2026-06-29 12:54:55,582 [INFO] (bernoulli_simulator.py): --- Estadísticos de Salida (Bernoulli) ---
+2026-06-29 12:54:55,582 [INFO] (bernoulli_simulator.py): Shape t: (1000,), Shape T: (1000,)
+2026-06-29 12:54:55,582 [INFO] (bernoulli_simulator.py): Temp. Máxima: 150.00°C
+2026-06-29 12:54:55,583 [INFO] (bernoulli_simulator.py): Temp. Mínima: 50.00°C
+2026-06-29 12:54:55,583 [INFO] (bernoulli_simulator.py): Primeros 5 puntos (t, T): [(np.float64(0.0), np.float64(150.0)), (np.float64(0.3), np.float64(144.17)), (np.float64(0.6), np.float64(138.68)), (np.float64(0.9), np.float64(133.51)), (np.float64(1.2), np.float64(128.64))]
+2026-06-29 12:54:55,583 [INFO] (bernoulli_simulator.py): Últimos 5 puntos (t, T): [(np.float64(298.8), np.float64(50.0)), (np.float64(299.1), np.float64(50.0)), (np.float64(299.4), np.float64(50.0)), (np.float64(299.7), np.float64(50.0)), (np.float64(300.0), np.float64(50.0))]
+2026-06-29 12:54:55,584 [INFO] (bernoulli_simulator.py): Integración numérica (Bernoulli) completada con éxito. Puntos: 1000
+2026-06-29 12:55:22,954 [INFO] (bernoulli_widget.py): Usuario solicitó ejecución (Bernoulli). Parámetros -> T_CPU=150.0, T_AIR=0.0, K=0.01, Viento=20.0, n=1.7, Humedad=100.0, K_nb=4.8
+2026-06-29 12:55:22,955 [INFO] (bernoulli_simulator.py): Iniciando integración numérica (Bernoulli).
+2026-06-29 12:55:22,956 [INFO] (bernoulli_simulator.py): --- Parámetros Físicos Bernoulli ---
+2026-06-29 12:55:22,957 [INFO] (bernoulli_simulator.py): T_cpu inicial: 150.0°C
+2026-06-29 12:55:22,957 [INFO] (bernoulli_simulator.py): T_ambient: 0.0°C
+2026-06-29 12:55:22,957 [INFO] (bernoulli_simulator.py): Constante k1: 0.01
+2026-06-29 12:55:22,957 [INFO] (bernoulli_simulator.py): Constante k2 dinámica: 0.019200
+2026-06-29 12:55:22,957 [INFO] (bernoulli_simulator.py): Exponente n: 1.7
+2026-06-29 12:55:22,957 [INFO] (bernoulli_simulator.py): Velocidad Viento: 20.0 m/s, Humedad: 100.0%, Sesgo: 4.8
+2026-06-29 12:55:22,958 [INFO] (bernoulli_simulator.py): Tiempo total: 300.0s, dt ~ 0.300s
+2026-06-29 12:55:22,965 [INFO] (bernoulli_simulator.py): --- Auditoría SciPy (Bernoulli) ---
+2026-06-29 12:55:22,965 [INFO] (bernoulli_simulator.py): Success: True
+2026-06-29 12:55:22,965 [INFO] (bernoulli_simulator.py): Mensaje: The solver successfully reached the end of the integration interval.
+2026-06-29 12:55:22,965 [INFO] (bernoulli_simulator.py): Evaluaciones de función (nfev): 110
+2026-06-29 12:55:22,966 [INFO] (bernoulli_simulator.py): --- Estadísticos de Salida (Bernoulli) ---
+2026-06-29 12:55:22,966 [INFO] (bernoulli_simulator.py): Shape t: (1000,), Shape T: (1000,)
+2026-06-29 12:55:22,966 [INFO] (bernoulli_simulator.py): Temp. Máxima: 150.00°C
+2026-06-29 12:55:22,966 [INFO] (bernoulli_simulator.py): Temp. Mínima: 0.02°C
+2026-06-29 12:55:22,966 [INFO] (bernoulli_simulator.py): Primeros 5 puntos (t, T): [(np.float64(0.0), np.float64(150.0)), (np.float64(0.3), np.float64(124.82)), (np.float64(0.6), np.float64(106.08)), (np.float64(0.9), np.float64(91.86)), (np.float64(1.2), np.float64(80.51))]
+2026-06-29 12:55:22,967 [INFO] (bernoulli_simulator.py): Últimos 5 puntos (t, T): [(np.float64(298.8), np.float64(0.02)), (np.float64(299.1), np.float64(0.02)), (np.float64(299.4), np.float64(0.02)), (np.float64(299.7), np.float64(0.02)), (np.float64(300.0), np.float64(0.02))]
+2026-06-29 12:55:22,967 [INFO] (bernoulli_simulator.py): Integración numérica (Bernoulli) completada con éxito. Puntos: 1000
+2026-06-29 12:55:28,425 [INFO] (bernoulli_widget.py): Usuario solicitó ejecución (Bernoulli). Parámetros -> T_CPU=150.0, T_AIR=6.0, K=0.01, Viento=20.0, n=1.7, Humedad=100.0, K_nb=4.8
+2026-06-29 12:55:28,426 [INFO] (bernoulli_simulator.py): Iniciando integración numérica (Bernoulli).
+2026-06-29 12:55:28,426 [INFO] (bernoulli_simulator.py): --- Parámetros Físicos Bernoulli ---
+2026-06-29 12:55:28,427 [INFO] (bernoulli_simulator.py): T_cpu inicial: 150.0°C
+2026-06-29 12:55:28,427 [INFO] (bernoulli_simulator.py): T_ambient: 6.0°C
+2026-06-29 12:55:28,427 [INFO] (bernoulli_simulator.py): Constante k1: 0.01
+2026-06-29 12:55:28,427 [INFO] (bernoulli_simulator.py): Constante k2 dinámica: 0.019200
+2026-06-29 12:55:28,428 [INFO] (bernoulli_simulator.py): Exponente n: 1.7
+2026-06-29 12:55:28,428 [INFO] (bernoulli_simulator.py): Velocidad Viento: 20.0 m/s, Humedad: 100.0%, Sesgo: 4.8
+2026-06-29 12:55:28,428 [INFO] (bernoulli_simulator.py): Tiempo total: 300.0s, dt ~ 0.300s
+2026-06-29 12:55:28,439 [INFO] (bernoulli_simulator.py): --- Auditoría SciPy (Bernoulli) ---
+2026-06-29 12:55:28,439 [INFO] (bernoulli_simulator.py): Success: True
+2026-06-29 12:55:28,440 [INFO] (bernoulli_simulator.py): Mensaje: The solver successfully reached the end of the integration interval.
+2026-06-29 12:55:28,440 [INFO] (bernoulli_simulator.py): Evaluaciones de función (nfev): 98
+2026-06-29 12:55:28,440 [INFO] (bernoulli_simulator.py): --- Estadísticos de Salida (Bernoulli) ---
+2026-06-29 12:55:28,440 [INFO] (bernoulli_simulator.py): Shape t: (1000,), Shape T: (1000,)
+2026-06-29 12:55:28,441 [INFO] (bernoulli_simulator.py): Temp. Máxima: 150.00°C
+2026-06-29 12:55:28,441 [INFO] (bernoulli_simulator.py): Temp. Mínima: 6.03°C
+2026-06-29 12:55:28,441 [INFO] (bernoulli_simulator.py): Primeros 5 puntos (t, T): [(np.float64(0.0), np.float64(150.0)), (np.float64(0.3), np.float64(126.4)), (np.float64(0.6), np.float64(108.7)), (np.float64(0.9), np.float64(95.2)), (np.float64(1.2), np.float64(84.41))]
+2026-06-29 12:55:28,442 [INFO] (bernoulli_simulator.py): Últimos 5 puntos (t, T): [(np.float64(298.8), np.float64(6.03)), (np.float64(299.1), np.float64(6.03)), (np.float64(299.4), np.float64(6.03)), (np.float64(299.7), np.float64(6.03)), (np.float64(300.0), np.float64(6.03))]
+2026-06-29 12:55:28,442 [INFO] (bernoulli_simulator.py): Integración numérica (Bernoulli) completada con éxito. Puntos: 1000
+2026-06-29 12:55:31,940 [INFO] (bernoulli_widget.py): Usuario solicitó ejecución (Bernoulli). Parámetros -> T_CPU=150.0, T_AIR=50.0, K=0.01, Viento=20.0, n=1.7, Humedad=100.0, K_nb=4.8
+2026-06-29 12:55:31,940 [INFO] (bernoulli_simulator.py): Iniciando integración numérica (Bernoulli).
+2026-06-29 12:55:31,945 [INFO] (bernoulli_simulator.py): --- Parámetros Físicos Bernoulli ---
+2026-06-29 12:55:31,945 [INFO] (bernoulli_simulator.py): T_cpu inicial: 150.0°C
+2026-06-29 12:55:31,945 [INFO] (bernoulli_simulator.py): T_ambient: 50.0°C
+2026-06-29 12:55:31,946 [INFO] (bernoulli_simulator.py): Constante k1: 0.01
+2026-06-29 12:55:31,946 [INFO] (bernoulli_simulator.py): Constante k2 dinámica: 0.019200
+2026-06-29 12:55:31,947 [INFO] (bernoulli_simulator.py): Exponente n: 1.7
+2026-06-29 12:55:31,947 [INFO] (bernoulli_simulator.py): Velocidad Viento: 20.0 m/s, Humedad: 100.0%, Sesgo: 4.8
+2026-06-29 12:55:31,947 [INFO] (bernoulli_simulator.py): Tiempo total: 300.0s, dt ~ 0.300s
+2026-06-29 12:55:31,959 [INFO] (bernoulli_simulator.py): --- Auditoría SciPy (Bernoulli) ---
+2026-06-29 12:55:31,959 [INFO] (bernoulli_simulator.py): Success: True
+2026-06-29 12:55:31,959 [INFO] (bernoulli_simulator.py): Mensaje: The solver successfully reached the end of the integration interval.
+2026-06-29 12:55:31,959 [INFO] (bernoulli_simulator.py): Evaluaciones de función (nfev): 80
+2026-06-29 12:55:31,960 [INFO] (bernoulli_simulator.py): --- Estadísticos de Salida (Bernoulli) ---
+2026-06-29 12:55:31,960 [INFO] (bernoulli_simulator.py): Shape t: (1000,), Shape T: (1000,)
+2026-06-29 12:55:31,960 [INFO] (bernoulli_simulator.py): Temp. Máxima: 150.00°C
+2026-06-29 12:55:31,960 [INFO] (bernoulli_simulator.py): Temp. Mínima: 50.04°C
+2026-06-29 12:55:31,960 [INFO] (bernoulli_simulator.py): Primeros 5 puntos (t, T): [(np.float64(0.0), np.float64(150.0)), (np.float64(0.3), np.float64(136.85)), (np.float64(0.6), np.float64(126.36)), (np.float64(0.9), np.float64(117.91)), (np.float64(1.2), np.float64(110.96))]
+2026-06-29 12:55:31,961 [INFO] (bernoulli_simulator.py): Últimos 5 puntos (t, T): [(np.float64(298.8), np.float64(50.04)), (np.float64(299.1), np.float64(50.04)), (np.float64(299.4), np.float64(50.04)), (np.float64(299.7), np.float64(50.04)), (np.float64(300.0), np.float64(50.04))]
+2026-06-29 12:55:31,961 [INFO] (bernoulli_simulator.py): Integración numérica (Bernoulli) completada con éxito. Puntos: 1000
+2026-06-29 12:55:35,757 [INFO] (bernoulli_widget.py): Usuario solicitó ejecución (Bernoulli). Parámetros -> T_CPU=150.0, T_AIR=50.0, K=0.01, Viento=20.0, n=1.7, Humedad=100.0, K_nb=0.0
+2026-06-29 12:55:35,758 [INFO] (bernoulli_simulator.py): Iniciando integración numérica (Bernoulli).
+2026-06-29 12:55:35,758 [INFO] (bernoulli_simulator.py): --- Parámetros Físicos Bernoulli ---
+2026-06-29 12:55:35,759 [INFO] (bernoulli_simulator.py): T_cpu inicial: 150.0°C
+2026-06-29 12:55:35,759 [INFO] (bernoulli_simulator.py): T_ambient: 50.0°C
+2026-06-29 12:55:35,759 [INFO] (bernoulli_simulator.py): Constante k1: 0.01
+2026-06-29 12:55:35,759 [INFO] (bernoulli_simulator.py): Constante k2 dinámica: 0.000000
+2026-06-29 12:55:35,760 [INFO] (bernoulli_simulator.py): Exponente n: 1.7
+2026-06-29 12:55:35,760 [INFO] (bernoulli_simulator.py): Velocidad Viento: 20.0 m/s, Humedad: 100.0%, Sesgo: 0.0
+2026-06-29 12:55:35,760 [INFO] (bernoulli_simulator.py): Tiempo total: 300.0s, dt ~ 0.300s
+2026-06-29 12:55:35,766 [INFO] (bernoulli_simulator.py): --- Auditoría SciPy (Bernoulli) ---
+2026-06-29 12:55:35,766 [INFO] (bernoulli_simulator.py): Success: True
+2026-06-29 12:55:35,767 [INFO] (bernoulli_simulator.py): Mensaje: The solver successfully reached the end of the integration interval.
+2026-06-29 12:55:35,767 [INFO] (bernoulli_simulator.py): Evaluaciones de función (nfev): 38
+2026-06-29 12:55:35,767 [INFO] (bernoulli_simulator.py): --- Estadísticos de Salida (Bernoulli) ---
+2026-06-29 12:55:35,768 [INFO] (bernoulli_simulator.py): Shape t: (1000,), Shape T: (1000,)
+2026-06-29 12:55:35,768 [INFO] (bernoulli_simulator.py): Temp. Máxima: 150.00°C
+2026-06-29 12:55:35,768 [INFO] (bernoulli_simulator.py): Temp. Mínima: 54.99°C
+2026-06-29 12:55:35,769 [INFO] (bernoulli_simulator.py): Primeros 5 puntos (t, T): [(np.float64(0.0), np.float64(150.0)), (np.float64(0.3), np.float64(149.7)), (np.float64(0.6), np.float64(149.4)), (np.float64(0.9), np.float64(149.1)), (np.float64(1.2), np.float64(148.81))]
+2026-06-29 12:55:35,770 [INFO] (bernoulli_simulator.py): Últimos 5 puntos (t, T): [(np.float64(298.8), np.float64(55.05)), (np.float64(299.1), np.float64(55.04)), (np.float64(299.4), np.float64(55.02)), (np.float64(299.7), np.float64(55.01)), (np.float64(300.0), np.float64(54.99))]
+2026-06-29 12:55:35,770 [INFO] (bernoulli_simulator.py): Integración numérica (Bernoulli) completada con éxito. Puntos: 1000
+2026-06-29 12:55:41,566 [INFO] (bernoulli_widget.py): Usuario solicitó ejecución (Bernoulli). Parámetros -> T_CPU=86.0, T_AIR=50.0, K=0.01, Viento=20.0, n=1.7, Humedad=100.0, K_nb=0.0
+2026-06-29 12:55:41,566 [INFO] (bernoulli_simulator.py): Iniciando integración numérica (Bernoulli).
+2026-06-29 12:55:41,567 [INFO] (bernoulli_simulator.py): --- Parámetros Físicos Bernoulli ---
+2026-06-29 12:55:41,567 [INFO] (bernoulli_simulator.py): T_cpu inicial: 86.0°C
+2026-06-29 12:55:41,567 [INFO] (bernoulli_simulator.py): T_ambient: 50.0°C
+2026-06-29 12:55:41,568 [INFO] (bernoulli_simulator.py): Constante k1: 0.01
+2026-06-29 12:55:41,568 [INFO] (bernoulli_simulator.py): Constante k2 dinámica: 0.000000
+2026-06-29 12:55:41,568 [INFO] (bernoulli_simulator.py): Exponente n: 1.7
+2026-06-29 12:55:41,569 [INFO] (bernoulli_simulator.py): Velocidad Viento: 20.0 m/s, Humedad: 100.0%, Sesgo: 0.0
+2026-06-29 12:55:41,569 [INFO] (bernoulli_simulator.py): Tiempo total: 300.0s, dt ~ 0.300s
+2026-06-29 12:55:41,575 [INFO] (bernoulli_simulator.py): --- Auditoría SciPy (Bernoulli) ---
+2026-06-29 12:55:41,575 [INFO] (bernoulli_simulator.py): Success: True
+2026-06-29 12:55:41,576 [INFO] (bernoulli_simulator.py): Mensaje: The solver successfully reached the end of the integration interval.
+2026-06-29 12:55:41,576 [INFO] (bernoulli_simulator.py): Evaluaciones de función (nfev): 38
+2026-06-29 12:55:41,576 [INFO] (bernoulli_simulator.py): --- Estadísticos de Salida (Bernoulli) ---
+2026-06-29 12:55:41,576 [INFO] (bernoulli_simulator.py): Shape t: (1000,), Shape T: (1000,)
+2026-06-29 12:55:41,577 [INFO] (bernoulli_simulator.py): Temp. Máxima: 86.00°C
+2026-06-29 12:55:41,577 [INFO] (bernoulli_simulator.py): Temp. Mínima: 52.10°C
+2026-06-29 12:55:41,578 [INFO] (bernoulli_simulator.py): Primeros 5 puntos (t, T): [(np.float64(0.0), np.float64(86.0)), (np.float64(0.3), np.float64(85.89)), (np.float64(0.6), np.float64(85.78)), (np.float64(0.9), np.float64(85.68)), (np.float64(1.2), np.float64(85.57))]
+2026-06-29 12:55:41,578 [INFO] (bernoulli_simulator.py): Últimos 5 puntos (t, T): [(np.float64(298.8), np.float64(52.12)), (np.float64(299.1), np.float64(52.12)), (np.float64(299.4), np.float64(52.11)), (np.float64(299.7), np.float64(52.1)), (np.float64(300.0), np.float64(52.1))]
+2026-06-29 12:55:41,579 [INFO] (bernoulli_simulator.py): Integración numérica (Bernoulli) completada con éxito. Puntos: 1000
+2026-06-29 12:55:44,329 [INFO] (main.py): Aplicación cerrada con código: 0

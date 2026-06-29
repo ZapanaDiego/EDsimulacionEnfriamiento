@@ -1,3 +1,4 @@
+import logging
 import numpy as np
 from PyQt6.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QPushButton
 from core.bernoulli_simulator import BernoulliSimulator
@@ -59,6 +60,8 @@ class BernoulliWidget(QWidget):
         self.room_canvas.set_wind_speed(self.config.V_air)
 
     def execute_simulation(self):
+        logging.info(f"Usuario solicitó ejecución (Bernoulli). Parámetros -> T_CPU={self.config.T_initial_cpu}, T_AIR={self.config.T_ambient}, K={self.config.cooling_constant_k}, Viento={self.config.V_air}, n={self.config.bernoulli_n}, Humedad={self.config.humidity_H}, K_nb={self.config.sensor_Knb}")
+        
         # Instanciar simulador de Bernoulli
         simulator = BernoulliSimulator(self.config)
         
@@ -69,9 +72,15 @@ class BernoulliWidget(QWidget):
             # Cálculo de datos para gráficas
             diff = np.maximum(T_data - self.config.T_ambient, 0.0)
             
+            # Recalcular k2 dinámico
+            viento = self.config.V_air
+            humedad = self.config.humidity_H
+            sesgo = self.config.sensor_Knb
+            k2_dynamic = (viento * (1.0 + humedad / 100.0) * sesgo) / 10000.0
+            
             # Gráfica 2: Flujo Lineal vs Flujo Turbulento
             flux_lin_data = -self.config.cooling_constant_k * diff
-            flux_turb_data = -self.config.cooling_constant_k2 * (diff ** self.config.bernoulli_n)
+            flux_turb_data = -k2_dynamic * (diff ** self.config.bernoulli_n)
             
             # Gráfica 3: Evolución de Turbulencia
             # Usamos V_air, H y K_nb para afectar visualmente la curva de turbulencia

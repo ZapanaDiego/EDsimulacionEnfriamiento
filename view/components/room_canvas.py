@@ -1,3 +1,4 @@
+import logging
 import random
 from PyQt6.QtWidgets import QWidget, QVBoxLayout, QGroupBox
 from PyQt6.QtCore import Qt, QPointF, QTimer, QLineF
@@ -30,6 +31,7 @@ class RoomCanvas(QWidget):
                 'length': random.uniform(20, 60),
                 'opacity': random.randint(50, 180)
             })
+        logging.debug(f"Sistema de partículas inicializado. Cantidad: {count}")
         return particles
 
     def set_temperature(self, temp):
